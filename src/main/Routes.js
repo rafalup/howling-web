@@ -5,8 +5,12 @@ import {
 
 
 import Home from './../components/Home';
-import Participar from './../components/Participar';
-
+import Manga from './../components/Manga';
+import Cartoons from '../components/Cartoons';
+import Charges from '../components/Charges';
+import Comics from '../components/Comics';
+import Outlet from '../components/Outlet';
+import Tirinhas from '../components/Tirinhas';
 
 
 export class Routes extends Component {
@@ -16,7 +20,13 @@ export class Routes extends Component {
             <Switch>
                 <Route exact path='/' component={Home}/>
                
-                <Route path='/participar' component={Participar}/>
+                <Route path='/Manga' component={Manga}/>
+                <Route path='/Cartoons' component={Cartoons}/>
+                <Route path='/Charges' component={Charges}/>
+                <Route path='/Comics' component={Comics}/>
+                <Route path='/Outlet' component={Outlet}/>
+                <Route path='/Tirinhas' component={Tirinhas}/>
+
             </Switch>
             </main>
         )

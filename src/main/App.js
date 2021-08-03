@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router } from 'react-router-dom';
 
 import Routes from './Routes';
-import Menu from './Menu';
+import Header from './Header';
+import Carrossel from './Carrossel';
 
 
 
@@ -13,8 +14,9 @@ class App extends Component {
         return (
         <Router>
            <div className="App">
-                <Menu/>
+                <Header/>
                 <Routes/>
+                <Carrossel/>
                 
             </div>
         </Router>
