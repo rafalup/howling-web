@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+
+import "./style.css";
 export class Comics extends Component {
     render() {
         return (

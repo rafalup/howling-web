@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import "./style.css";
+
 export class Charges extends Component {
     render() {
         return (

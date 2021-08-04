@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 
 import "./teste.css";
 
-
+/* import "./style.css"; */
 import Carrossel from './../main/Carrossel';
 
 export class Home extends Component {
     render() {
         return (
+            <div className="container">
 
-            <div className="App">
                 <div>
                     <Carrossel />
                 </div>
@@ -22,8 +22,9 @@ export class Home extends Component {
 
 
 
-
             </div>
+
+
 
 
         )
