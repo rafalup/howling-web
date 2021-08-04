@@ -18,8 +18,8 @@ export class Routes extends Component {
         return (
             <main className="container">
             <Switch>
-                <Route exact path='/' component={Home}/>
-               {/*  <Route exact path='/howling-web' component={Home}/> */}
+                {/* <Route exact path='/' component={Home}/> */}
+                <Route exact path='/howling-web' component={Home}/>
                
                 <Route path='/Manga' component={Manga}/>
                 <Route path='/Cartoons' component={Cartoons}/>
