@@ -3,7 +3,7 @@ import {BrowserRouter as Router } from 'react-router-dom';
 
 import Routes from './Routes';
 import Header from './Header';
-import Carrossel from './Carrossel';
+
 
 
 
@@ -16,7 +16,7 @@ class App extends Component {
            <div className="App">
                 <Header/>
                 <Routes/>
-                <Carrossel/>
+               
                 
             </div>
         </Router>
