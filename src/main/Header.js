@@ -26,28 +26,28 @@ const Header = () => {
           </li> */}
 
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/Manga">MANGÁ</Link>
+            <Link to="/manga">MANGÁ</Link>
 
           </li>
 
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/Tirinhas">TIRINHAS</Link>
+            <Link to="/tirinhas">TIRINHAS</Link>
           </li>
 
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/Cartoons">CARTOONS</Link>
+            <Link to="/cartoons">CARTOONS</Link>
           </li>
 
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/Charges">CHARGES</Link>
+            <Link to="/charges">CHARGES</Link>
           </li>
 
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/Comics">COMICS</Link>
+            <Link to="/comics">COMICS</Link>
           </li>
 
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/Outlet">OUTLET</Link>
+            <Link to="/outlet">OUTLET</Link>
           </li>
 
         </ul>
