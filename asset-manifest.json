@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/howling-web/static/css/main.3442622b.chunk.css",
+    "main.css": "/howling-web/static/css/main.ea41122a.chunk.css",
     "main.js": "/howling-web/static/js/main.f9a1e4cc.chunk.js",
     "main.js.map": "/howling-web/static/js/main.f9a1e4cc.chunk.js.map",
     "runtime-main.js": "/howling-web/static/js/runtime-main.89470412.js",
@@ -10,7 +10,7 @@
     "static/js/2.add8c41f.chunk.js.map": "/howling-web/static/js/2.add8c41f.chunk.js.map",
     "index.html": "/howling-web/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/howling-web/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.3442622b.chunk.css.map": "/howling-web/static/css/main.3442622b.chunk.css.map",
+    "static/css/main.ea41122a.chunk.css.map": "/howling-web/static/css/main.ea41122a.chunk.css.map",
     "static/js/2.add8c41f.chunk.js.LICENSE.txt": "/howling-web/static/js/2.add8c41f.chunk.js.LICENSE.txt",
     "static/media/logo.a0e98c28.svg": "/howling-web/static/media/logo.a0e98c28.svg",
     "static/media/menu.c21acb3a.svg": "/howling-web/static/media/menu.c21acb3a.svg",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.89470412.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.add8c41f.chunk.js",
-    "static/css/main.3442622b.chunk.css",
+    "static/css/main.ea41122a.chunk.css",
     "static/js/main.f9a1e4cc.chunk.js"
   ]
 }
