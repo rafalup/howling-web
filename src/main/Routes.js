@@ -18,19 +18,18 @@ export class Routes extends Component {
         return (
             <main className="container">
             <Switch>
-                {/* <Route exact path='/' component={Home}/> */}
-                <Route exact path='/howling-web' component={Home}/>
-                <Route path='/Manga' component={Manga}/>
-                <Route path='/Cartoons' component={Cartoons}/>
-                <Route path='/Charges' component={Charges}/>
-                <Route path='/Comics' component={Comics}/>
-                <Route path='/Outlet' component={Outlet}/>
-                <Route path='/Tirinhas' component={Tirinhas}/>
-
+                <Route exact path='/' component={Home} />
+                <Route exact path='/manga' component={Manga}/>
+                <Route exact path='/cartoons' component={Cartoons}/>
+                <Route exact path='/charges' component={Charges}/>
+                <Route exact path='/comics' component={Comics}/>
+                <Route exact path='/outlet' component={Outlet}/>
+                <Route exact path='/tirinhas' component={Tirinhas}/>
             </Switch>
             </main>
         )
     }
 };
+
 
 export default Routes;

@@ -12,7 +12,7 @@ import "./style.css";
 class App extends Component {
     render() {
         return (
-        <Router>
+        <Router basename="/howling-web">
            <div className="App">
                 <Header/>
                 <Routes/>
