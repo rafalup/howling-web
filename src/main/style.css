@@ -139,10 +139,10 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: white;
+    background: black;
     text-align: center;
     height: 8%;
-    color: black;
+    color: white;
     padding: 53px 0;
     border-top: 1px solid black;
     margin-top: 5%;
@@ -172,6 +172,18 @@ a {
         grid-gap: 18px;
         list-style-type: none;
     }
+    .app-footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        height: 8%;
+        color: black;
+        padding: 53px 0;
+        border-top: 1px solid black;
+        margin-top: 60%;
+    }
 }
 
 /* ----------- iPad  ----------- */
@@ -186,5 +198,17 @@ a {
     }
     .container {
         padding: 0px
+    }
+    .app-footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        height: 8%;
+        color: black;
+        padding: 53px 0;
+        border-top: 1px solid black;
+        margin-top: 60%;
     }
 }

@@ -9,6 +9,7 @@ import Header from './Header';
 
 import "./style.css";
 
+
 class App extends Component {
     render() {
         return (
@@ -16,9 +17,12 @@ class App extends Component {
            <div className="App">
                 <Header/>
                 <Routes/>
+              
+                
                
                 
             </div>
+            
         </Router>
         );
     }
