@@ -1,11 +1,20 @@
 import React, {Component} from 'react';
 
+import EditProduct from './EditProduct';
+
+import MostraP from './MostraP';
+
 import "./style.css";
 export class Tirinhas extends Component {
     render() {
         return (
-            <div>
-                <h1>Vamos de Tirinhas</h1>
+            <div className="container">
+                <EditProduct/>
+                
+                <MostraP/>
+
+                
+
             </div>
         )
     }

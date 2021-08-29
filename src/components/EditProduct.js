@@ -7,7 +7,7 @@ export class EditProduct extends Component {
 
             <div className="itens-option">
                 <div className="search-product">
-                    <strong className="product-encontrado">Produtos encontrados:</strong>
+                    <strong className="product-encontrado">Produtos encontrados: 8</strong>
 
                 </div>
 

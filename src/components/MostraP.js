@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import "./Products.css";
 
 
-import logo1 from './../assets/batmanGibi.jpg';
+import logo1 from './../assets/monica.jpg';
 
 
-export class MostraProduct extends Component {
+export class MostraP extends Component {
     render() {
         return (
 
@@ -128,4 +128,4 @@ export class MostraProduct extends Component {
     }
 };
 
-export default MostraProduct;
+export default MostraP;

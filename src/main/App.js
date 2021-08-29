@@ -8,6 +8,7 @@ import Header from './Header';
 
 
 import "./style.css";
+import Footer from './Footer';
 
 
 class App extends Component {
@@ -17,11 +18,14 @@ class App extends Component {
            <div className="App">
                 <Header/>
                 <Routes/>
+                <Footer/>
+               
               
                 
                
                 
             </div>
+           
             
         </Router>
         );
