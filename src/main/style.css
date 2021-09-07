@@ -10,7 +10,6 @@ a {
     color: black;
 }
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -66,13 +65,173 @@ a {
 
 .mobile-menu {
     display: none;
-} 
+}
+
+/*================================================================ page footer ================================================================ */
+
+.app-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    height: 8%;
+    color: white;
+    padding: 53px 0;
+    border-top: 1px solid black;
+    margin-top: 5%;
+}
+
+.app-footer__message {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.social-container {
+    margin-left: 75%;
+    margin-top: -5%;
+}
+
+.titule-follow {
+    padding: 7px 0px 19px 0px;
+}
+
+a.social {
+    margin: 0 0.4rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.telegram {
+    color: #4968ad;
+}
+
+a.twitter {
+    color: #49a1eb;
+}
+
+a.instagram {
+    background: linear-gradient(#6616fc, #f394d3);
+    color: red;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .1));
+}
+
+.info {
+    text-align: initial;
+    margin-left: 3%;
+}
+
+.Titule-pagemento {
+    margin-right: 2%;
+    margin-top: -5%;
+}
+
+.card-pagamento {
+    margin-left: 0%;
+    margin-top: -4%;
+}
+
+.type-cards {
+    margin-top: 1%;
+}
+
+.Copyright-origin {
+    margin-top: 5%;
+}
+
+/* ====================================================== Responsive iPad Pro =================================================== */
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .container {
+        padding: 50px;
+    }
+    /* .row {
+        margin-left: 0%;
+    } */
+    .nav-options {
+        padding-left: 25px;
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        grid-gap: 18px;
+        list-style-type: none;
+    }
+    .app-footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        height: 8%;
+        color: black;
+        padding: 53px 0;
+        border-top: 1px solid black;
+        margin-top: 60%;
+    }
+    .card-pagamento {
+        margin-left: 44%;
+        margin-top: -29%;
+    }
+}
+
+/* ----------- iPad  ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .nav-options {
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        grid-gap: 13px;
+        list-style-type: none;
+        margin-right: 5%;
+    }
+    .container {
+        padding: 0px
+    }
+    .app-footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        height: 8%;
+        color: black;
+        padding: 53px 0;
+        border-top: 1px solid black;
+        margin-top: 60%;
+    }
+    .social-container {
+        margin-left: -78%;
+        margin-top: 6%;
+    }
+    
+    .card-pagamento {
+        margin-left: 44%;
+        margin-top: -34.5%;
+    }
+    .social-container {
+        margin-left: 0%;
+        margin-top: 7%;
+    }
+
+    .Copyright-origin {
+        margin-top: 23%;
+    }
+    .card-pagamento {
+        margin-left: 44%;
+        margin-top: -28.5%;
+    }
+    
+    
+}
 
 @media (max-width: 648px) {
     /*Mobile View */
     .header {
         padding: 0px 10px;
-       /*  padding: 0 10px 0 45px; */
+        /*  padding: 0 10px 0 45px; */
     }
     .logo {
         width: 45px;
@@ -127,88 +286,23 @@ a {
     .mobile-menu {
         display: block;
     }
-   
-   
+    .social-container {
+        margin-left: 0%;
+        margin-top: 7%;
+    }
+    .info {
+        text-align: initial;
+        margin-left: 11%;
+    }
+    .img-formasPague {
+        width: 250px;
+    }
+    .card-pagamento {
+        margin-left: 0%;
+        margin-top: 14%;
+    }
 }
 
 /* .mobile-menu {
     display: block;
 } */
-
-.app-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: black;
-    text-align: center;
-    height: 8%;
-    color: white;
-    padding: 53px 0;
-    border-top: 1px solid black;
-    margin-top: 5%;
-}
-
-.app-footer__message {
-    text-align: justify;
-    font-weight: 300;
-}
-
-/* ----------- iPad Pro ----------- */
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .container {
-        padding: 50px;
-    }
-    /* .row {
-        margin-left: 0%;
-    } */
-    
-
-    
-    .nav-options {
-        padding-left: 25px;
-        display: grid;
-        grid-template-columns: repeat(8, auto);
-        grid-gap: 18px;
-        list-style-type: none;
-    }
-    .app-footer {
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background: white;
-        text-align: center;
-        height: 8%;
-        color: black;
-        padding: 53px 0;
-        border-top: 1px solid black;
-        margin-top: 60%;
-    }
-}
-
-/* ----------- iPad  ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .nav-options {
-        display: grid;
-        grid-template-columns: repeat(8, auto);
-        grid-gap: 13px;
-        list-style-type: none;
-        margin-right: 5%;
-    }
-    .container {
-        padding: 0px
-    }
-    .app-footer {
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background: white;
-        text-align: center;
-        height: 8%;
-        color: black;
-        padding: 53px 0;
-        border-top: 1px solid black;
-        margin-top: 60%;
-    }
-}
